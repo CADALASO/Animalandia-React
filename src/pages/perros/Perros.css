@@ -1,0 +1,72 @@
+.btn-secondary {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+}
+.btn-secondary:hover {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+    box-shadow: 0 0 0 0;
+}
+.btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+.btn-secondary:disabled, .btn-secondary.disabled {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.card {
+    border: 1px solid var(--purple-color);
+}
+
+.card-img-top {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.card-title {
+    color: var(--purple-color);
+    font-weight: bold;
+    text-shadow: 1px 1px .5px var(--dark-color);
+}
+
+.card-text {
+    color: var(--dark-color);
+}
+
+.card-text span {
+    font-weight: bold;
+}
+
+.img-fluid {
+    margin-bottom: 1rem;
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.modal-title {
+    color: var(--blue-color);
+    text-transform: uppercase;
+    text-shadow: 1px 1px .5px var(--dark-color);
+}
+
+.tittle-section {
+    color: var(--purple-color);
+    font-weight: bold;
+    text-shadow: 1px 1px 3px var(--dark-color);
+}

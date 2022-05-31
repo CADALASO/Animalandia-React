@@ -1,0 +1,9 @@
+footer{
+    background-image: url(fondo.jpg);
+    color:var(--white-color);
+    margin-top: 1rem;
+}
+
+.box-footer{
+    background-color: rgba(117, 41, 149, 0.5);
+}

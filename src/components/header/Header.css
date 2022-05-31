@@ -1,0 +1,31 @@
+.btn-primary {
+    background: linear-gradient(#00B2B1, #016e6e);
+    color:var(--dark-color);
+    font-weight: bold;
+    border-color:var(--blue-color);
+    margin-right: 10px;
+}
+.btn-primary:hover {
+    color:var(--dark-color);
+    border-color:var(--blue-color);
+    background: linear-gradient(#016e6e,#00B2B1);
+    transition: all 1s ease 1s;
+}
+.btn-outline-primary {
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+    border-style: solid;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+}
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.5);
+}
+.header-logo img{
+    max-width: 270px;
+}
